@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="lG607P" name="Helio" projectType="guiapp" version="3.0" bundleIdentifier="fm.helio"
-              includeBinaryInAppConfig="1" jucerVersion="5.4.7" companyWebsite="https://helio.fm"
-              companyEmail="peter.rudenko@gmail.com" companyName="Peter Rudenko"
-              displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
-              cppLanguageStandard="11" usePrecompiledHeaders="0" precompiledHeaderFileName=""
-              precompiledHeaderExcludedWildcard="include_juce_*" companyCopyright="Peter Rudenko"
-              headerPath="../Projucer/JuceLibraryCode&#10;../../ThirdParty/JUCE/modules&#10;../../ThirdParty/JUCE/modules/juce_audio_processors/format_types/VST3_SDK&#10;../../ThirdParty/ASIO/common&#10;../../Source/&#10;../../Source/Core&#10;../../Source/Core/Audio&#10;../../Source/Core/Audio/BuiltIn&#10;../../Source/Core/Audio/Instruments&#10;../../Source/Core/Audio/Monitoring&#10;../../Source/Core/Audio/Transport&#10;../../Source/Core/Configuration&#10;../../Source/Core/Configuration/Models&#10;../../Source/Core/Configuration/ResourceManagers&#10;../../Source/Core/CommandPalette&#10;../../Source/Core/Midi&#10;../../Source/Core/Midi/Patterns&#10;../../Source/Core/Midi/Sequences&#10;../../Source/Core/Midi/Sequences/Events&#10;../../Source/Core/Network&#10;../../Source/Core/Network/Models&#10;../../Source/Core/Network/Requests&#10;../../Source/Core/Network/Services&#10;../../Source/Core/Scripting&#10;../../Source/Core/Serialization&#10;../../Source/Core/Tree&#10;../../Source/Core/Undo&#10;../../Source/Core/Undo/Actions&#10;../../Source/Core/VCS&#10;../../Source/Core/VCS/DiffLogic&#10;../../Source/Core/Workspace&#10;../../Source/UI/&#10;../../Source/UI/Common&#10;../../Source/UI/Common/AudioMonitors&#10;../../Source/UI/Common/Origami&#10;../../Source/UI/Dialogs&#10;../../Source/UI/Headline&#10;../../Source/UI/Input&#10;../../Source/UI/Menus&#10;../../Source/UI/Menus/Base&#10;../../Source/UI/Menus/SelectionMenus&#10;../../Source/UI/Pages/Instruments&#10;../../Source/UI/Pages/Instruments/Editor&#10;../../Source/UI/Pages/Project&#10;../../Source/UI/Pages/Settings&#10;../../Source/UI/Pages/VCS&#10;../../Source/UI/Pages/Dashboard&#10;../../Source/UI/Pages/Dashboard/Menu&#10;../../Source/UI/Popups&#10;../../Source/UI/Sequencer&#10;../../Source/UI/Sequencer/Header&#10;../../Source/UI/Sequencer/Helpers&#10;../../Source/UI/Sequencer/MiniMaps/AnnotationsMap&#10;../../Source/UI/Sequencer/MiniMaps/KeySignaturesMap&#10;../../Source/UI/Sequencer/MiniMaps/LevelsMap&#10;../../Source/UI/Sequencer/MiniMaps/PianoMap&#10;../../Source/UI/Sequencer/MiniMaps/TimeSignaturesMap&#10;../../Source/UI/Sequencer/PatternRoll&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/AutomationCurveClip&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/AutomationStepsClip&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/PianoClip&#10;../../Source/UI/Sequencer/PianoRoll&#10;../../Source/UI/Sequencer/Sidebars&#10;../../Source/UI/Themes"
-              projectLineFeed="&#10;">
+<JUCERPROJECT id="lG607P" name="Helio" projectType="audioplug" version="3.0"
+              bundleIdentifier="fm.helio" includeBinaryInAppConfig="1" jucerVersion="5.4.7"
+              companyWebsite="https://helio.fm" companyEmail="peter.rudenko@gmail.com"
+              companyName="Peter Rudenko" displaySplashScreen="0" reportAppUsage="0"
+              splashScreenColour="Dark" cppLanguageStandard="11" usePrecompiledHeaders="0"
+              precompiledHeaderFileName="" precompiledHeaderExcludedWildcard="include_juce_*"
+              companyCopyright="Peter Rudenko" headerPath="../Projucer/JuceLibraryCode&#10;../../ThirdParty/JUCE/modules&#10;../../ThirdParty/JUCE/modules/juce_audio_processors/format_types/VST3_SDK&#10;../../ThirdParty/ASIO/common&#10;../../Source/&#10;../../Source/Core&#10;../../Source/Core/Audio&#10;../../Source/Core/Audio/BuiltIn&#10;../../Source/Core/Audio/Instruments&#10;../../Source/Core/Audio/Monitoring&#10;../../Source/Core/Audio/Transport&#10;../../Source/Core/Configuration&#10;../../Source/Core/Configuration/Models&#10;../../Source/Core/Configuration/ResourceManagers&#10;../../Source/Core/CommandPalette&#10;../../Source/Core/Midi&#10;../../Source/Core/Midi/Patterns&#10;../../Source/Core/Midi/Sequences&#10;../../Source/Core/Midi/Sequences/Events&#10;../../Source/Core/Network&#10;../../Source/Core/Network/Models&#10;../../Source/Core/Network/Requests&#10;../../Source/Core/Network/Services&#10;../../Source/Core/Scripting&#10;../../Source/Core/Serialization&#10;../../Source/Core/Tree&#10;../../Source/Core/Undo&#10;../../Source/Core/Undo/Actions&#10;../../Source/Core/VCS&#10;../../Source/Core/VCS/DiffLogic&#10;../../Source/Core/Workspace&#10;../../Source/UI/&#10;../../Source/UI/Common&#10;../../Source/UI/Common/AudioMonitors&#10;../../Source/UI/Common/Origami&#10;../../Source/UI/Dialogs&#10;../../Source/UI/Headline&#10;../../Source/UI/Input&#10;../../Source/UI/Menus&#10;../../Source/UI/Menus/Base&#10;../../Source/UI/Menus/SelectionMenus&#10;../../Source/UI/Pages/Instruments&#10;../../Source/UI/Pages/Instruments/Editor&#10;../../Source/UI/Pages/Project&#10;../../Source/UI/Pages/Settings&#10;../../Source/UI/Pages/VCS&#10;../../Source/UI/Pages/Dashboard&#10;../../Source/UI/Pages/Dashboard/Menu&#10;../../Source/UI/Popups&#10;../../Source/UI/Sequencer&#10;../../Source/UI/Sequencer/Header&#10;../../Source/UI/Sequencer/Helpers&#10;../../Source/UI/Sequencer/MiniMaps/AnnotationsMap&#10;../../Source/UI/Sequencer/MiniMaps/KeySignaturesMap&#10;../../Source/UI/Sequencer/MiniMaps/LevelsMap&#10;../../Source/UI/Sequencer/MiniMaps/PianoMap&#10;../../Source/UI/Sequencer/MiniMaps/TimeSignaturesMap&#10;../../Source/UI/Sequencer/PatternRoll&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/AutomationCurveClip&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/AutomationStepsClip&#10;../../Source/UI/Sequencer/PatternRoll/ClipComponents/PianoClip&#10;../../Source/UI/Sequencer/PianoRoll&#10;../../Source/UI/Sequencer/Sidebars&#10;../../Source/UI/Themes"
+              projectLineFeed="&#10;" pluginFormats="buildStandalone,buildVST3"
+              pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsMidiEffectPlugin,pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginVST3Category="Instrument,Synth,Tools" aaxIdentifier="fm.helio">
   <MAINGROUP id="szkQi0" name="Helio">
     <GROUP id="{005FBE8D-B17D-F49E-397E-DB420E759514}" name="Resources">
       <GROUP id="{566A42BA-3539-AB6F-C7F2-BD3408E4047E}" name="Samples">
@@ -1466,6 +1468,8 @@
         <MODULEPATH id="juce_audio_formats" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
     <XCODE_IPHONE targetFolder="../../Projects/iOS" bigIcon="DQTpOG" UIFileSharingEnabled="1"
@@ -1500,6 +1504,8 @@
         <MODULEPATH id="juce_audio_formats" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_IPHONE>
     <VS2015 targetFolder="../../Projects/VisualStudio2015" smallIcon="DQTpOG"
@@ -1536,6 +1542,8 @@
         <MODULEPATH id="juce_audio_devices" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_basics" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </VS2015>
     <VS2017 targetFolder="../../Projects/VisualStudio2017" extraCompilerFlags="/FC /Gy /bigobj"
@@ -1569,6 +1577,8 @@
         <MODULEPATH id="juce_audio_devices" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_basics" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </VS2017>
     <VS2019 targetFolder="../../Projects/VisualStudio2019" extraCompilerFlags="/FC /Gy /bigobj"
@@ -1596,6 +1606,8 @@
         <MODULEPATH id="juce_audio_formats"/>
         <MODULEPATH id="juce_audio_devices"/>
         <MODULEPATH id="juce_audio_basics"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </VS2019>
     <LINUX_MAKE targetFolder="../../Projects/LinuxMakefile" bigIcon="DQTpOG"
@@ -1625,6 +1637,8 @@
         <MODULEPATH id="juce_audio_formats" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
     <ANDROIDSTUDIO targetFolder="../../Projects/Android" androidSDKPath="~/Android/Sdk/"
@@ -1658,6 +1672,8 @@
         <MODULEPATH id="juce_audio_devices" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_audio_basics" path="../../ThirdParty/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../ThirdParty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../ThirdParty/JUCE/modules"/>
       </MODULEPATHS>
     </ANDROIDSTUDIO>
   </EXPORTFORMATS>
@@ -1665,7 +1681,10 @@
     <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
     <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
     <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
@@ -1684,7 +1703,7 @@
                JUCE_USE_ANDROID_OPENSLES="1" JUCE_USE_ANDROID_OBOE="0" JUCE_BELA="0"
                JUCE_ENABLE_LIVE_CONSTANT_EDITOR="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"
                JUCE_DISABLE_COREGRAPHICS_FONT_SMOOTHING="1" JUCE_WIN_PER_MONITOR_DPI_AWARE="1"
-               JUCE_ALLOW_STATIC_NULL_VARIABLES="0"/>
+               JUCE_ALLOW_STATIC_NULL_VARIABLES="0" JUCE_VST3_CAN_REPLACE_VST2="0"/>
   <LIVE_SETTINGS>
     <OSX/>
     <WINDOWS/>
